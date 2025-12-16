@@ -8,6 +8,6 @@ public class LoginController {
 
     @GetMapping("/")
     public String login() {
-        return "login";  // This refers to login.html inside templates folder
+        return "login";  // This refers to home.html inside templates folder
     }
 }
