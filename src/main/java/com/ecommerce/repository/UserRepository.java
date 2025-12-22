@@ -1,10 +1,9 @@
 package com.ecommerce.repository;
 
 import com.ecommerce.entity.User;
-
+import org.springframework.data.repository.query.Param;
 import java.lang.foreign.Linker.Option;
 import java.util.Optional;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
